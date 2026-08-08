@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header>
+  <h2>สมัครเรียน</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Layout.html">Go to Layout</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <form>
+        <lable>ชื่อ-นามสกุล : </lable>
+        <input type="text" required><br>
+        <lable>วัน/เดือน/ปี : </lable>
+        <input type="date" required><br>
+        <lable>น้ำหนัก : </lable>
+        <input type="number" min="30" max="300" required><br>
+        <lable>ส่วนสูง : </lable>
+        <input type="number" min="100" max="250" required><br>
+        <lable>เบอร์โทร : </lable>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+        <lable>แนบรูปภาพหน้าตรง : </lable>
+        <input type="file" required><br>
+        <lable>วุฒิที่การศึกษาที่จบมา :</lable>
+        <br><input type="radio" name="major" value="IT" required> ม.6
+        <br><input type="radio" name="major" value="Business" required> ปวช.
+        <br><input type="radio" name="major" value="Engineering" required> ปวส.
+        <br><input type="radio" name="major" value="IT" required> อนุปริญญา<br>
+        <lable>สาขาที่ต้องการจะเข้า :</lable>
+        <br><input type="radio" name="major" value="IT" required> IT
+        <br><input type="radio" name="major" value="ITI" required> ITI
+        <br><input type="radio" name="major" value="ITT" required> ITT
+        <br><input type="radio" name="major" value="INE" required> INE
+        <br><input type="radio" name="major" value="INET" required> INET
+
+
+        <br><input type="submit" value="ส่งข้อมูล">
+        <input type="reset" value="ยกเลิก">
+    </form>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
